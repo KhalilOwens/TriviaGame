@@ -1,0 +1,20 @@
+h1 {
+    color: blue;
+    text-align: center;
+    font: 900;
+    text-decoration: underline;
+}
+
+
+#elem {
+    color: red;
+    font: bold;
+    text-align: center;
+    font-size: 200%;
+
+}
+
+body{
+    background-image: url("https://image.freepik.com/free-vector/modern-technological-elements-with-transparent-background_1035-7108.jpg");
+    
+}
