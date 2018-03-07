@@ -1,11 +1,10 @@
 var counter = 0;
-var score = 0;
 var pos = 0;
 var question;
-var test;
-var testStatus;
 var choice;
-var choices; var chA; var chB; var chC; var correct = 0;
+var choices;
+var chA; var chB; var chC;
+var correct = 0;
 var questions = [
     ["In Texas it's illegal to sware in front of a what?","Corpse","American Flag","Police Officer","A"],
     ["Coprastastaphobia is the fear of what?","Coconuts","Constipation","Crowds","B"],
@@ -37,7 +36,7 @@ var questions = [
       div.append("<button onclick='checkAnswer()'>Submit Answer</button>");
  }
     function checkAnswer() {
-       // function to match user ckick to answer loop
+       // function to match user click to answer loop
       choices = document.getElementsByName("choices");
              
       for (var i=0; i<choices.length; i++) {
